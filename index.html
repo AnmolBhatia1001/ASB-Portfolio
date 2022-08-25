@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASB Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            screens: {
+                sm: '460px',
+                md: '768px',
+                lg: '1024px',
+                xl: '1256px',
+             },
+            extend: {
+              colors: {
+                shade01: '#F0EBE3',
+                shade02: '#E4DCCF',
+                shade03: '#7D9D9C',
+                shade04: '#576F72',
+              }
+            }
+          }
+        }
+      </script>
+      <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-r text-shade01  from-[#373B44] to-[#4286f4]  ">
+
+    <!-- Nav Section -->
+    <div class="text-shade01 px-10 py-2 text-2xl font-semibold flex justify-between items-center shadow-lg ">
+
+        <!-- Nav Left -->
+        <div class="flex items-center ">
+            <!-- logo -->
+            <div class="flex w-28">
+                <img src="./assets/logo02.png" alt="">
+            </div>
+
+            <!-- Menu Left -->
+            <div class="flex hidden lg:flex"">
+                <ul class="px-4 py-2">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                </ul>
+
+                <ul class="px-4 py-2">
+                    <li>
+                        <a href="#about_me">About</a>
+                    </li>
+                </ul>
+
+                <ul class="px-4 py-2">
+                    <li>
+                        <a href="">Services</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Nav Right -->
+        <div class="flex items-center hidden lg:flex">
+
+            <!-- Menu Right -->
+            <div class="flex">
+                <ul class="px-4 py-2">
+                    <li>
+                        <a href="">Portfolio</a>
+                    </li>
+                </ul>
+
+                <ul class="px-4 py-2"> 
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="px-4 py-2"> 
+                    <li>
+                        <a href="">Hire Me</a>
+                    </li>
+                </ul>
+            </div>
+
+            
+            
+        </div>
+
+         <!-- mobile only -->
+         <div class="flex lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                <path fill="#e7e4e1" d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/>
+            </svg>
+        </div>
+
+
+    </div>
+
+    <!-- Main Section -->
+    <main class="mt-16 flex flex-col-reverse justify-center items-center lg:flex-row lg:justify-between lg:items-center w-full">
+        <!-- Left -->
+        <div class="w-full lg:w-1/2">
+            <img class="drop-shadow-2xl" src="./assets/hey.png" alt="">
+        </div>
+
+        <!-- right -->
+        <div class="flex flex-col text-shade01 justify-center items-center px-8 w-full lg:w-1/2">
+           
+            <h1 class="text-center font-mono w-full text-6xl font-semibold tracking-wide leading-[3.75rem]">
+                Hi,I'm <span class="text-[#40DFEF]">Anmol</span> <br>
+                Singh Bhatia <br>
+            </h1>
+            <p class="mt-6 w-[80%] text-2xl text-center">
+                <span class="text-[#40DFEF] text-3xl font-semibold" >
+                    FRONT-END WEB DEVELOPER
+                </span> <br>  Who Writes Clean, Elegant And Efficient Code.
+            </p>
+            
+
+            <!-- CV btn -->
+            <div class="mt-8">
+                <a class="bg-4286f4 rounded-full px-5 py-2 border-2 font-semibold hover:bg-[#373B44] " href="">Download CV</a>
+            </div>
+
+            <div class="flex mt-8 gap-10 justify-center items-center ">
+                <a class="" href="">
+                    <svg width="32px" fill="#e7e4e1"  height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 0.396c-8.839 0-16 7.167-16 16 0 7.073 4.584 13.068 10.937 15.183 0.803 0.151 1.093-0.344 1.093-0.772 0-0.38-0.009-1.385-0.015-2.719-4.453 0.964-5.391-2.151-5.391-2.151-0.729-1.844-1.781-2.339-1.781-2.339-1.448-0.989 0.115-0.968 0.115-0.968 1.604 0.109 2.448 1.645 2.448 1.645 1.427 2.448 3.744 1.74 4.661 1.328 0.14-1.031 0.557-1.74 1.011-2.135-3.552-0.401-7.287-1.776-7.287-7.907 0-1.751 0.62-3.177 1.645-4.297-0.177-0.401-0.719-2.031 0.141-4.235 0 0 1.339-0.427 4.4 1.641 1.281-0.355 2.641-0.532 4-0.541 1.36 0.009 2.719 0.187 4 0.541 3.043-2.068 4.381-1.641 4.381-1.641 0.859 2.204 0.317 3.833 0.161 4.235 1.015 1.12 1.635 2.547 1.635 4.297 0 6.145-3.74 7.5-7.296 7.891 0.556 0.479 1.077 1.464 1.077 2.959 0 2.14-0.020 3.864-0.020 4.385 0 0.416 0.28 0.916 1.104 0.755 6.4-2.093 10.979-8.093 10.979-15.156 0-8.833-7.161-16-16-16z"/>
+                    </svg>
+                </a>
+
+                <a class="" class="" href="">
+                    <svg width="38" height="22" viewBox="0 0 38 22" fill="#e7e4e1" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.356678 11.4956C-0.118893 11.2104 -0.118892 10.4976 0.356679 10.2125L14.7197 1.60122C15.4408 1.16889 16.1693 2.15119 15.5826 2.76473L8.34608 10.3321C8.06984 10.6209 8.06984 11.0871 8.34608 11.376L15.5826 18.9433C16.1693 19.5569 15.4408 20.5392 14.7197 20.1068L0.356678 11.4956Z" ></path>
+                        <path d="M8.51066 1.55168C8.23967 1.27027 8.23967 0.824966 8.51066 0.543559C8.7965 0.246733 9.2717 0.246733 9.55753 0.543559L28.7255 20.4483C28.9964 20.7297 28.9964 21.175 28.7255 21.4564C28.4396 21.7533 27.9644 21.7533 27.6786 21.4564L8.51066 1.55168Z"></path>
+                        <path d="M37.6433 10.2125C38.1189 10.4976 38.1189 11.2104 37.6433 11.4956L23.2803 20.1068C22.5592 20.5392 21.8307 19.5569 22.4174 18.9433L29.6539 11.376C29.9302 11.0871 29.9302 10.6209 29.6539 10.332L22.4174 2.76473C21.8307 2.15118 22.5592 1.16888 23.2803 1.60122L37.6433 10.2125Z" ></path>
+                    </svg>
+                </a>
+
+                <a class="" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#e7e4e1" width="24" height="24" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </svg>
+                </a>
+
+
+            </div>
+        </div>
+
+       
+        
+        
+
+    </main>
+
+    <!-- About Me -->
+    <section id="about_me" class="w-full px-4 md:px-10 py-16">
+
+        <div class="flex flex-col px-2 md:px-10 py-20 rounded-2xl shadow-2xl 
+        bg-gradient-to-r text-shade01  from-[#4286f4]/20 to-[#373B44]/20">
+            <!-- About Me Heading -->
+            <div class="flex text-center flex-col items-center ">
+            <h2 class="text-4xl font-bold">
+                ABOUT ME
+            </h2>
+            <p class="mt-5 text-center text-xl">
+                You can learn more about me here ,Like what I do and My current skills in programming and technology.
+            </p>
+            </div>
+
+            <!-- About Me Contain -->
+            <div class="mt-14 flex flex-col justify-between items-center w-full lg:flex-row ">
+
+                <!-- Get To Know Me  -->
+                <div class="flex px-4 text-left flex-col w-full lg:w-1/2">
+                    <h2 class="text-2xl font font-bold">
+                        Get to know me 
+                    </h2>
+                    <p class="mt-4 text-[1rem]">
+                        Hi, I'm Anmol Singh Bhatia, I'm a Passionate Frontend Web Developer building the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <b>Projects</b>  section. I am constantly exploring new technologies and trying to improve my skills. Currently on journey of learning Full Stack Web Development. I am also interested in helping others learn about web development and sharing my knowledge with them. <br> <br>
+
+
+                        I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+                    </p>
+                    
+                    <div class="mt-8">
+                        <a class="bg-4286f4 rounded-full px-5 py-2 border-2 font-semibold hover:bg-[#373B44] " href="">
+                            Contact me
+                        </a>
+                    </div>
+                    
+                </div>
+
+                <!-- My Skills  -->
+                <div class=" flex flex-col w-full mt-10 lg:mt-0 lg:w-1/2">
+
+                    
+
+                    <div class="flex justify-center w-full ">
+                        <div class="font-monospace bg-[#232323] text-[0.70rem] sm:text-sm text-shade01 rounded-xl w-full px-2 sm:px-6 py-8">
+                            <pre class="animate-typewriter line-1">1&nbsp;&nbsp;class <b>Person</b> <!-- -->{</pre>
+                            <pre class="animate-typewriter line-2">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor() <!-- -->{</pre>
+                            <pre class="animate-typewriter line-3">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "<b>Anmol Singh Bhatia</b>";</pre>
+                            <pre class="animate-typewriter line-4">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = ["<b>DEVELOPER</b>", "<b>DESIGN</b>"];</pre>
+                            <pre class="animate-typewriter line-5">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.language = ["<b>JAVASCRIPT</b>", "<b>PYTHON</b>"];</pre>
+                            <pre class="animate-typewriter line-6">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = <!-- -->new Date().getFullYear() - 1999;</pre>
+                            <pre class="animate-typewriter line-7">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!-- -->}</pre>
+                            <pre class="animate-typewriter line-8">8&nbsp;&nbsp;<!-- -->}</pre>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- Services -->
+    <section>
+
+    </section>
+
+    <!-- Projects -->
+    <section>
+
+    </section>
+</body>
+</html>
